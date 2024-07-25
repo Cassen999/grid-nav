@@ -1,0 +1,57 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Grid {
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Cell {
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2em;
+}
+
+.emoji {
+    font-size: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.east {
+    transform: rotate(90deg);
+}
+
+.south {
+    transform: rotate(180deg);
+}
+
+.west {
+    transform: rotate(270deg);
+}
+
+.north {
+    transform: rotate(360deg);
+}
+  
