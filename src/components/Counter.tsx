@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 export const Grid = () => {
-  const [selectedCellIndex, setselectedCellIndex] = useState<number>(9);
+  const [selectedCellIndex, setselectedCellIndex] = useState<number>(0);
   const [selectedColumnIndex, setselectedColumnIndex] = useState<number>(0);
   const [rotationState, setRotationState] = useState<string>('north')
   const emoji = () => {
